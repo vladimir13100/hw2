@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ body {
+    font-family: "Montserrat", sans-serif;
+ }
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.header{
+    background-image: url(foto/Rectangle\ 1\ \(1\).png);
+    background-position: center;
+  background-size: cover;
+height: 1024px;
+
+}
+.header__log{
+    display: flex;
+    width: 788.778px;
+    height: 125px;
+    font-family: Montserrat;
+    flex-shrink: 0;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+padding-left: 120px;
+margin-bottom: 32px;
+padding-top: 217px;
+
+    }
+    .header__text{
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; 
+    padding-left: 120px;
+    padding-bottom: 30px;
+    
+    }
+.header__button{
+font-family: Montserrat;
+width: 200px;
+    height: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 13px;
+    color: #ffffff;
+    border-radius: 30px;
+    background: #9C0332;
+    margin-left: 120px;
+}
+.footer{
+    background: #000915;
+    display: flex;
+    column-gap: 32px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+   
+}
+.footer__item {
+    width: 379px;
+    height: 300px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    padding-left: 32px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: Montserrat;
+}   
+.footer__item:hover {
+    text-decoration: underline;
+
+}
+.item1:hover{
+border: 3px solid #44d2ff;
+}
+.item1{
+    background-image: url(foto/igra2.png);
+    border-radius: 16px;
+background-repeat: no-repeat;
+}
+.item2{
+    background-image: url(foto/igra3.png);
+border-radius: 16px;
+background-repeat: no-repeat;
+}
+.item2:hover{
+    border: 3px solid #44d2ff;
+}
+
+.item3{
+    background-image: url(foto/igra4.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+.item3:hover{
+    border: 3px solid #44d2ff;
+}
